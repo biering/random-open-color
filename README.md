@@ -1,6 +1,6 @@
 # random-open-color
 
-> Generate a random color from the [open-color](https://github.com/yeun/open-color) palette
+> Super fast random color generator from the [open-color](https://github.com/yeun/open-color) palette
 
 ## Install
 
