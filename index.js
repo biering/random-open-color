@@ -1,23 +1,16 @@
-const { has, keys, flatten, slice } = require('lodash')
-const Random = require('random-js')
+const { 
+  has, 
+  keys, 
+  flatten, 
+  slice }          = require('lodash')
+const Random       = require('random-js')
 const shuffleArray = require('shuffle-array')
+
+const colors       = require('./colors.js')
 
 const mt = Random.engines.mt19937().autoSeed()
 
-const colors = {
-  red: [
-    '#fff5f5', // red-0
-    '#ffe3e3', // red-1
-  ],
-  green: [
-    'test',
-    'test2'
-  ],
-  blue: [
-    'blue',
-    'blue2'
-  ]
-}
+console.log(colors)
 
 /*import randomColor from 'random-open-color'
 
