@@ -1,0 +1,33 @@
+{
+  "name": "random-open-color",
+  "description": "Generate a random color from the open-color palette",
+  "version": "1.0.1",
+  "author": "Christoph Biering <chryb.q@gmail.com> (https://github.com/chryb)",
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chryb/random-open-color.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chryb/random-open-color/issues"
+  },
+  "keywords": [
+    "color",
+    "random",
+    "open-color",
+    "palette",
+    "generator",
+    "hex"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "random-js": "^1.0.8",
+    "shuffle-array": "^1.0.1"
+  },
+  "devDependencies": {}
+}
