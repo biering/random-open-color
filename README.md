@@ -21,4 +21,15 @@ const hexColor = randomColor()
 
 ...
 
+/*import randomColor from 'random-open-color'
+
+randomColor({
+  excluded: [
+    'gray'
+  ],
+  min: 2, // min >= 0 && min < max
+  max: 8, // max > min && max <= 9
+  shuffle: true
+})*/
+
 ## License
