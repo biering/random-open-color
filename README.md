@@ -6,12 +6,19 @@
 
 ```bash
 npm install --save random-open-color
-
-
 ```
 
 ## Usage
 
-```bash
+```javascript
+const randomColor = require('random-open-color')
 
+import randomColor from 'random-open-color')
+
+const hexColor = randomColor()
 ```
+### Options
+
+...
+
+## License
