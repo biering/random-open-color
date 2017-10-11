@@ -34,4 +34,11 @@ const randomColor = (options = {}) => {
   }
 }
 
+randomColor.tone = color => {
+  for (let key in colors)
+    if (has(colors, key) && colors[key].indexOf(color) > -1)
+      return key
+  return null
+}
+
 module.exports = randomColor
